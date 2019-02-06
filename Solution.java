@@ -1,3 +1,6 @@
+
+//package com.javarush.task.task07.task0706;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -9,15 +12,15 @@ import java.io.InputStreamReader;
 public class Solution {
     public static void main(String[] args) throws Exception {
         //напишите тут ваш код
-        int chet;
-        int nechet;
+        int chet = 0 ;
+        int nechet = 0;
         
          int[] num = new int[15];
          BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
          for (int i = 0; i < num.length; i++){
             num[i] = Integer.parseInt(reader.readLine());
            
-           if (num[i] % == 0 ){
+           if (num[i] % 2 == 0 ){
                chet++;
             }
             else{
